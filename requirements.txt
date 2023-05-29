@@ -85,8 +85,6 @@ python-dateutil==2.8.2
 python-dotenv==1.0.0
 pytz==2023.3
 pytz-deprecation-shim==0.1.0.post0
-pywin32==306
-PyYAML==6.0
 pyzmq==25.0.2
 regex==2023.5.5
 requests==2.30.0
@@ -129,3 +127,6 @@ websockets==11.0.2
 yarl==1.9.2
 zipp==3.15.0
 zstandard==0.21.0
+
+# Windows-specific dependencies
+pypiwin32; platform_system == "Windows"
